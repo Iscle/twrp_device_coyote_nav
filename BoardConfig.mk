@@ -10,15 +10,12 @@ TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := cortex-a7
 
-BOARD_KERNEL_CMDLINE :=
-BOARD_KERNEL_BASE :=
-BOARD_KERNEL_PAGESIZE :=
-# TARGET_KERNEL_CONFIG := codename_defconfig
-# TARGET_KERNEL_SOURCE := kernel/vendor/codename
-TARGET_PREBUILT_KERNEL := device/vendor/codename/kernel
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00000000 --ramdisk_offset 0x00000000 --dt device/vendor/codename/dt.img --tags_offset 0x00000000
-BOARD_KERNEL_SEPARATED_DT :=
 TARGET_PREBUILT_KERNEL := device/huawei/h30u10/kernel
+BOARD_KERNEL_CMDLINE := 
+BOARD_MKBOOTIMG_ARGS := --base 0x10000000 --pagesize 2048 --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --second_offset 0x00f00000 --tags_offset 0x00000100 --mtk 1
+BOARD_CUSTOM_BOOTIMG := true
+BOARD_CUSTOM_BOOTIMG_MK := device/huawei/h30u10/bootimg.mk
+BOARD_CUSTOM_MKBOOTIMG := mtkbootimg
 
 TARGET_USERIMAGES_USE_EXT4 := true
 
