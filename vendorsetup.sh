@@ -14,5 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_codename-eng
-
+add_lunch_combo omni_h30u10-eng
