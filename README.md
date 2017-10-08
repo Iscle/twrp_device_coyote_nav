@@ -9,7 +9,7 @@
 | GPU                     | Mali-400MP2                       |
 | Memory                  | 2 GB                              |
 | Shipped Android Version | 4.2.2                             |
-| Shipped Android Version | 4.4.2                             |
+| Upgraded Android Version | 4.4.2                             |
 | Storage                 | 8 GB                              |
 | MicroSD                 | Up to 32 GB                       |
 | Battery                 | 2300 mAh (removable)              |
