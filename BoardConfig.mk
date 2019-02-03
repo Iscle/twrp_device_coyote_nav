@@ -24,7 +24,11 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_MAX_BRIGHTNESS := 255
+TW_DEFAULT_BRIGHTNESS := 0
 TW_THEME := landscape_hdpi
 TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/mt_usb/musb-hdrc.0/gadget/lun%d/file
+TW_NO_SCREEN_TIMEOUT := true
+TW_NO_BATT_PERCENT := true
+RECOVERY_TOUCHSCREEN_FLIP_Y := true
