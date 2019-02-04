@@ -31,4 +31,4 @@ TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/mt_usb/musb-hdrc.0/gadget/lun%d/file
 TW_NO_SCREEN_TIMEOUT := true
 TW_NO_BATT_PERCENT := true
-RECOVERY_TOUCHSCREEN_FLIP_Y := true
+RECOVERY_TOUCHSCREEN_FLIP_X := true
